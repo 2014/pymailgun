@@ -1,4 +1,5 @@
-mailgun-sdk
+PyMailgun
 ===========
 
-mailgun sdk
+This is  mailgun sdk
+fork with git@github.com:fatelei/mailgun-sdk.git
