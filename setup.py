@@ -9,6 +9,7 @@ setup(
     author="fatelei",
     author_email="fatelei@gmail.com",
     description="mailgun sdk for python",
+    packages=find_packages(),
     install_requires=["requests"],
     packages=["mailgun", "mailgun.data"]
 )
