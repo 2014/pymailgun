@@ -5,11 +5,10 @@ from setuptools import setup, find_packages
 
 setup(
     name="pymailgun",
-    version="0.0.1",
+    version="0.0.2",
     author="fatelei",
     author_email="fatelei@gmail.com",
     description="mailgun sdk for python",
-    packages=find_packages('.'),
-    packages=["mailgun", "mailgun.data"]
-    install_requires=["requests"],
+    packages=["mailgun", "mailgun.data"],
+    install_requires=["requests"]
 )
