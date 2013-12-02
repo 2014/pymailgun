@@ -122,6 +122,7 @@ class MsgData(Base):
 
         data["from"] = self.from_email
         data["to"] = self.to
+	data["subject"] = self.subject
 
         if self.text:
             data["text"] = self.text
